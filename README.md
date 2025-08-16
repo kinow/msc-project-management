@@ -3,4 +3,4 @@ repository for tracking issues, papers, code, and other assignments. Personal no
 only, no exercises or answer of assignments will be made public here.
 
 Inspired on similar repositories created by [Manuel G. Marciani](https://github.com/manuel-g-castro)
-for his MsC and PhD.
+for his MSc and PhD.
