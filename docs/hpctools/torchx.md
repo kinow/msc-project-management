@@ -16,7 +16,7 @@ some sample data.
 The notebook contains code to run this using `torchrun`.
 
 ```bash
-$ !torchrun --nproc_per_node=2 ddp.py
+!torchrun --nproc_per_node=2 ddp.py
 [1] loss: 1.485
 [1] loss: 1.404
 [2] loss: 0.915
