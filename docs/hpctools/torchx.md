@@ -47,8 +47,11 @@ executed in those cells worked to launch the same with `torchx` and get a
 somewhat similar output (although a lot more verbose):
 
 ```bash
-$ pip install torchx
-$ torchx run --scheduler local_cwd dist.ddp --cpu 2 --script ddp.py
+!pip install torchx
+...
+...
+...
+!torchx run --scheduler local_cwd dist.ddp --cpu 2 --script ddp.py
 torchx 2025-10-02 20:57:27 INFO     Tracker configurations: {}
 torchx 2025-10-02 20:57:27 INFO     Log directory not set in scheduler cfg. Creating a temporary log dir that will be deleted on exit. To preserve log directory set the `log_dir` cfg option
 torchx 2025-10-02 20:57:27 INFO     Log directory is: /scratch/1308307/torchx_d6e62rcl
