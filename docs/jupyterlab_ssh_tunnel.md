@@ -16,6 +16,12 @@ Looking at `route -v`, I think the IP address and mask for the compute node are 
 my route table. But perhaps there's a firewall or some other networking tool filtering
 connections from outside -- or from Barcelona 🙂
 
+I also found [other CESGA technical documentation](https://cesga-docs.gitlab.io/bigdata-user-guide/jupyter.html)
+explaining to users how to use the `start_jupyter` utility in order to launch
+a Jupyter Lab, and with a Warning for users to remember to use the VPN to access it.
+
+Alas, none of the above worked for me.
+
 ## SSH Tunnel
 
 This worked; in one terminal:
