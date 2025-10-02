@@ -1,5 +1,7 @@
 # Torchx
 
+> EDIT: Ignore this; what did not work was `torchx` with Slurm!
+
 PyTorch TorchX was mentioned in the AI part of the HPC Tools. I think
 there was a comment about it having issues to be used in the CESGA FT3,
 so I added a mental note to try it if I had a chance, just to see what
